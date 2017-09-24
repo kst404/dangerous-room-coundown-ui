@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042847221F78324F00E7165C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 042847211F78324F00E7165C /* .gitignore */; };
 		04A13D201F5D6BAA0012B5C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A13D1F1F5D6BAA0012B5C6 /* AppDelegate.swift */; };
 		04A13D221F5D6BAA0012B5C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A13D211F5D6BAA0012B5C6 /* ViewController.swift */; };
 		04A13D251F5D6BAA0012B5C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A13D231F5D6BAA0012B5C6 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		04A13D2A1F5D6BAA0012B5C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A13D281F5D6BAA0012B5C6 /* LaunchScreen.storyboard */; };
 		04A13D351F5D6BAA0012B5C6 /* Dangerous_Room_Coundown_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A13D341F5D6BAA0012B5C6 /* Dangerous_Room_Coundown_UITests.swift */; };
 		04A13D401F5D6BAA0012B5C6 /* Dangerous_Room_Coundown_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A13D3F1F5D6BAA0012B5C6 /* Dangerous_Room_Coundown_UIUITests.swift */; };
+		04A13D4E1F5E9D670012B5C6 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A13D4D1F5E9D670012B5C6 /* TimerViewController.swift */; };
+		04A13D501F6A67910012B5C6 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A13D4F1F6A67910012B5C6 /* ViewController2.swift */; };
+		04A13D561F76F99B0012B5C6 /* TimerViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A13D551F76F99B0012B5C6 /* TimerViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042847211F78324F00E7165C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		04A13D1C1F5D6BAA0012B5C6 /* Dangerous Room Coundown UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dangerous Room Coundown UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A13D1F1F5D6BAA0012B5C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A13D211F5D6BAA0012B5C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		04A13D3B1F5D6BAA0012B5C6 /* Dangerous Room Coundown UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dangerous Room Coundown UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A13D3F1F5D6BAA0012B5C6 /* Dangerous_Room_Coundown_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dangerous_Room_Coundown_UIUITests.swift; sourceTree = "<group>"; };
 		04A13D411F5D6BAA0012B5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A13D4D1F5E9D670012B5C6 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		04A13D4F1F6A67910012B5C6 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		04A13D551F76F99B0012B5C6 /* TimerViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		04A13D131F5D6BAA0012B5C6 = {
 			isa = PBXGroup;
 			children = (
+				042847211F78324F00E7165C /* .gitignore */,
 				04A13D1E1F5D6BAA0012B5C6 /* Dangerous Room Coundown UI */,
 				04A13D331F5D6BAA0012B5C6 /* Dangerous Room Coundown UITests */,
 				04A13D3E1F5D6BAA0012B5C6 /* Dangerous Room Coundown UIUITests */,
@@ -99,7 +108,10 @@
 			children = (
 				04A13D1F1F5D6BAA0012B5C6 /* AppDelegate.swift */,
 				04A13D211F5D6BAA0012B5C6 /* ViewController.swift */,
+				04A13D4F1F6A67910012B5C6 /* ViewController2.swift */,
 				04A13D231F5D6BAA0012B5C6 /* Main.storyboard */,
+				04A13D4D1F5E9D670012B5C6 /* TimerViewController.swift */,
+				04A13D551F76F99B0012B5C6 /* TimerViewController2.swift */,
 				04A13D261F5D6BAA0012B5C6 /* Assets.xcassets */,
 				04A13D281F5D6BAA0012B5C6 /* LaunchScreen.storyboard */,
 				04A13D2B1F5D6BAA0012B5C6 /* Info.plist */,
@@ -188,11 +200,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = kst404;
 				TargetAttributes = {
 					04A13D1B1F5D6BAA0012B5C6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3CH43G3WAX;
 						ProvisioningStyle = Automatic;
 					};
 					04A13D2F1F5D6BAA0012B5C6 = {
@@ -232,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042847221F78324F00E7165C /* .gitignore in Resources */,
 				04A13D2A1F5D6BAA0012B5C6 /* LaunchScreen.storyboard in Resources */,
 				04A13D271F5D6BAA0012B5C6 /* Assets.xcassets in Resources */,
 				04A13D251F5D6BAA0012B5C6 /* Main.storyboard in Resources */,
@@ -259,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A13D561F76F99B0012B5C6 /* TimerViewController2.swift in Sources */,
 				04A13D221F5D6BAA0012B5C6 /* ViewController.swift in Sources */,
+				04A13D501F6A67910012B5C6 /* ViewController2.swift in Sources */,
+				04A13D4E1F5E9D670012B5C6 /* TimerViewController.swift in Sources */,
 				04A13D201F5D6BAA0012B5C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +342,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -333,7 +352,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -376,7 +399,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -384,7 +409,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -414,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3CH43G3WAX;
 				INFOPLIST_FILE = "Dangerous Room Coundown UI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.x34.Dangerous-Room-Coundown-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3CH43G3WAX;
 				INFOPLIST_FILE = "Dangerous Room Coundown UI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.x34.Dangerous-Room-Coundown-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +540,7 @@
 				04A13D461F5D6BAA0012B5C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A13D471F5D6BAA0012B5C6 /* Build configuration list for PBXNativeTarget "Dangerous Room Coundown UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +549,7 @@
 				04A13D491F5D6BAA0012B5C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A13D4A1F5D6BAA0012B5C6 /* Build configuration list for PBXNativeTarget "Dangerous Room Coundown UIUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +558,7 @@
 				04A13D4C1F5D6BAA0012B5C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
